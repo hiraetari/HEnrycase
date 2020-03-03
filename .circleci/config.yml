@@ -12,7 +12,7 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          echo "hello world"
+          python bot.py
 
 workflows:
   main:
