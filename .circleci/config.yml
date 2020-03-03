@@ -13,7 +13,7 @@ jobs:
       - python/save-cache
       - run:
           command: |
-            sudo pip install -r requirements.txt
+            sudo pip install pytelegrambotapi
             python bot.py
 
 workflows:
